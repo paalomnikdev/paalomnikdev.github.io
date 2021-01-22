@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: paalomnikdev/paalomnikdev.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -109,7 +109,7 @@ content:
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
+      Look at this cool image
       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
