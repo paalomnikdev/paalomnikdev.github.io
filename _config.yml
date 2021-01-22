@@ -1,0 +1,291 @@
+# Site
+repository: paalomnikdev/paalomnikdev.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Ivan Chornyi
+title: Senior Software Engineer
+#email: Your email (optional)
+#email_title: Email (Email title override)
+#phone: Your phone number (optional)
+#phone_title: Phone (Phone title override)
+#website: Your website (eg. https://google.com)(optional)
+#website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+#github_username:  paalomnikdev
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+instagram_username: i.chornyi
+linkedin_username: ichornyi
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: Telegram
+  icon: fab fa-telegram
+  url: https://t.me/i_chornyi
+- title: Skype
+  icon: fab fa-skype
+  url: https://join.skype.com/invite/aZiw8IXWYI2Z
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "UA-171540375-1"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Ivan and I'm a Senior Software Engineer. My main passion is software development but this is not my single interest, I also like DevOps related challenges.
+  I love to learn and use new technologies and approaches in practice. Technology-agnostic. I always work for the result. I always think before doing something. Glad to know that my work makes life easier for someone.
+  6+ years development experience. Strong communication skills.
+  [Google Associate Cloud Engineer Certified](https://www.credential.net/2d78e3ea-c984-4360-84c7-eefca15d2f25)
+
+  I am most skilled in: <mark>PHP</mark> and <mark>Eating Pizza</mark>
+
+content:
+#  - title: Projects # Title for the section
+#    layout: list # Type of content section (list/text)
+#    content:
+#      - layout: left
+#        title: Project name
+#        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        link_text: Link Text
+#        additional_links:
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        quote: >
+#          Short overview of the project (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description about the work on/with the project
+  - title: Skills
+    layout: skills
+    content:
+      - title: Programming languages
+        items:
+          - <mark>PHP</mark>
+          - <mark>Python</mark>
+          - <mark>Javascript</mark>
+
+      - title: Additional technologies
+        items:
+          - <mark>OOP</mark>
+          - <mark>HTML</mark>
+          - <mark>CSS</mark>
+          - <mark>Typescript</mark>
+          - <mark>Various API's</mark>
+
+      - title: Frameworks/CMS
+        items:
+          - <mark>Symfony</mark>
+          - <mark>Laravel</mark>
+          - <mark>Phalcon</mark>
+          - <mark>Codeception</mark>
+          - <mark>Magento 1.x CE/EE</mark>
+          - <mark>Wordpress</mark>
+          - <mark>Django</mark>
+          - <mark>Flask</mark>
+          - <mark>Angular X</mark>
+          - <mark>NodeJS</mark>
+          - <mark>JQuery</mark>
+          - <mark>Bootstrap</mark>
+          - <mark>Selenium</mark>
+
+      - title: Technologies
+        items:
+          - <mark>Websocket</mark>
+          - <mark>AJAX</mark>
+          - <mark>REST</mark>
+
+      - title: Tools
+        items:
+          - <mark>PhpStorm</mark>
+          - <mark>PyCharm</mark>
+          - <mark>NetBeans</mark>
+          - <mark>VSCode</mark>
+          - <mark>Atom</mark>
+          - <mark>Sublime Text</mark>
+          - <mark>Git</mark>
+          - <mark>Docker</mark>
+          - <mark>Vagrant</mark>
+          - <mark>Ansible</mark>
+          - <mark>Terraform</mark>
+          - <mark>Bash</mark>
+          - <mark>SSH</mark>
+
+      - title: Support Tools
+        items:
+          - <mark>Jira</mark>
+          - <mark>Confluence</mark>
+          - <mark>Pagerduty</mark>
+          - <mark>HP LoadRunner</mark>
+
+      - title: Databases
+        items:
+          - <mark>MySQL</mark>
+          - <mark>MongoDB</mark>
+          - <mark>Redis</mark>
+          - <mark>Memcache</mark>
+          - <mark>PostgeSQL</mark>
+          - <mark>BigQuery</mark>
+
+      - title: Operating Systems
+        items:
+          - <mark>Ubuntu</mark>
+          - <mark>Debian</mark>
+          - <mark>CentOS</mark>
+          - <mark>Raspbian</mark>
+          - <mark>OS X</mark>
+
+      - title: Servers
+        items:
+          - <mark>Nginx</mark>
+          - <mark>Apache</mark>
+          - <mark>GCP</mark>
+          - <mark>AWS</mark>
+
+      - title: Foreign languages
+        items:
+          - <mark>English(intermediate)</mark>
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: MWDN
+        sub_title: Cloud Engineer
+        caption: August 2020 - Nowadays
+        link: mwdn.com
+        quote: >
+          MWDN is an international development company with headquarters in Israel and development center in Kharkiv, Ukraine. Founded in 2002 by highly skilled project managers, MWDN has developed a significant number of successful projects concerning complex medical systems and cardiac monitoring in the past decade and a half. MWDN is also very proud of cooperation with some of the most successful international startups and a great experience in medical, web and mobile software development.
+        description: | # this will include new lines to allow paragraphs
+          Participated as a member of the Cloud SRE team. The team is responsible for maintaining the medical imaging systems infrastructure and administering the GCP.
+          My main responsibilites:
+            - compliance monitoring system development and maintenance for GCP infrastructure
+            - development of application for synthetic monitoring of web-applications
+            - cost-savings automation for GCP
+            - infrastructure monitoring automation
+
+
+      - layout: left
+        title: GlobalLogic
+        sub_title: Senior Software Engineer
+        caption: October 2016 - August 2020
+        link: globallogic.com
+        quote: >
+          GlobalLogic is a Digital Product Engineering Services company that was founded in 2000 and is headquartered in San Jose, California. It is a privately held company funded by Partners Group and CPP Investment Board. GlobalLogic provides software product development services, including experience design, complex systems engineering, content engineering, and self-contained engineering labs.
+        description: | # this will include new lines to allow paragraphs
+          Development, maintenance and optimization of CRM for Forex brokers and various support and internal tools. Servers setup and optimization. Bugfix. CRM modules development from scratch. On-call technical support experience. Experience in upgrade PHP 5.5->7.1->7.4 . The CRM core has been totally rewritten due to optimization purposes. Migration from AWS to GCP. Development of internal tools using Django/Flask.
+
+          Regular business trips. Half a year of experience in the role of Team Lead. Direct communication with customer.
+
+      - layout: left
+        title: Ronis Business Tools
+        sub_title: PHP Developer
+        caption: August 2015 - September 2016
+        link: roniscommerce.com
+        quote: >
+          Ronis is a leading eCommerce development agency that specialises in high converting Magento sites. Founded in 2003, our experienced team build stand‐out, successful retail platforms for brands and small businesses.
+        description: | # this will include new lines to allow paragraphs
+          E-commerce development:
+            - Development of new Magento(1.x CE and EE) websites
+            - E-store development and support/maintenance
+            - API integration (email marketing, analytics and internal custom API’s)
+            - Development of new internal services (like URL shortener, social network, product
+            management tool)
+            - Bug fixing
+            - Support
+            - Database optimization
+            - Internal synchronizations development
+
+      - layout: left
+        title: Smythisoft
+        sub_title: Junior PHP Developer
+        caption: September 2014 - August 2015
+        link: smithysoft.com
+        quote: >
+          Fullstack development company.
+        description: | # this will include new lines to allow paragraphs
+          Development of a wide range of web applications:
+            - Code implementing and optimization
+            - Adding new functionality
+            - Requirements clarification
+            - Bug fixing
+            - Support
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: National University of Radioelectronics
+        caption: 2006 - 2011
+        sub_title: Computer science & Biotechnical medic systems
+        quote: >
+          Kharkiv National University of Radio Electronics (NURE) is a higher education institution of the highest level of accreditation in Ukraine. It is one of the oldest technology universities in Ukraine, with over 7000 students and 30 scientific centers.
+        description: | # this will include new lines to allow paragraphs
+          During my time at NURE I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
+          I spent a lot of my free time as a committee member of my faculty taking on *headman* role.
+
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+         - Date of birth: 29.09.1989
+         - Married
+         - 3D printing
+         - USA Cars
+         - Online shopping
+         - World digitizing
+         - Founder of Ukrainian [Nissan Rogue Club](https://nissan-rogue.club/)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
