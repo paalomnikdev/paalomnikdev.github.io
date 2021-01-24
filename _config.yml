@@ -250,14 +250,16 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
+      - Date of birth: 29.09.1989
+      - Married
+      - Founder of Ukrainian [Nissan Rogue Club](https://nissan-rogue.club/)
+
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-       - Date of birth: 29.09.1989
-       - Married
        - 3D printing
        - USA Cars
        - Online shopping
        - World digitizing
-       - Founder of Ukrainian [Nissan Rogue Club](https://nissan-rogue.club/)
+
 
 # Footer
 footer_show_references: true
