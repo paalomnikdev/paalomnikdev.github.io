@@ -91,3 +91,21 @@
     transform: rotate(0);
     box-shadow: 3px 0px 0px 2px white, 7px 1px 0px 0px white, 16px 15px 0px 1px white, 21px 16px 0px 3px white, 26px 18px 0px 2px white;
 }
+
+html,
+body {
+    min-height: 100%;
+}
+body {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #FFFFFF 30%, #88D9FF, #24206C, #222 80%);
+    color: #333;
+    background-size: 100% 400%;
+    background-position: 100% 0%;
+    transition: all 1s;
+}
+body.dark {
+    background-position: 100% 100%;
+    color: #fff;
+}
+
