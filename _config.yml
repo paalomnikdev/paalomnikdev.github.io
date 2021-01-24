@@ -10,6 +10,9 @@ name: Ivan Chornyi
 title: Senior Software Engineer
 #email: brett.h@email.co.uk
 #website: www.github.com/sproogen/resume-theme
+skype_printable: i.chorniy
+telegram_printable: i_chornyi
+linkedin_printable: https://www.linkedin.com/in/ichornyi
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -22,7 +25,7 @@ darkmode: false
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
-instagram_username: i.chornyi
+instagram_username: i.chorniy
 linkedin_username: ichornyi
 #xing_username: jekyll
 #pinterest_username: jekyll
@@ -57,8 +60,6 @@ about_content: | # this will include new lines to allow paragraphs
   6+ years development experience. Strong communication skills.
   [Google Associate Cloud Engineer Certified](https://www.credential.net/2d78e3ea-c984-4360-84c7-eefca15d2f25)
 
-  I am most skilled in: <mark>PHP</mark> and <mark>Eating Pizza</mark>
-
 content:
 #  - title: Projects # Title for the section
 #    layout: list # Type of content section (list/text)
@@ -83,90 +84,90 @@ content:
     content:
       - title: Programming languages
         items:
-          - <mark>PHP</mark>
-          - <mark>Python</mark>
-          - <mark>Javascript</mark>
+          - PHP
+          - Python
+          - Javascript
 
       - title: Additional technologies
         items:
-          - <mark>OOP</mark>
-          - <mark>HTML</mark>
-          - <mark>CSS</mark>
-          - <mark>Typescript</mark>
-          - <mark>Various API's</mark>
+          - OOP
+          - HTML
+          - CSS
+          - Typescript
+          - Various API's
 
       - title: Frameworks/CMS
         items:
-          - <mark>Symfony</mark>
-          - <mark>Laravel</mark>
-          - <mark>Phalcon</mark>
-          - <mark>Codeception</mark>
-          - <mark>Magento 1.x CE/EE</mark>
-          - <mark>Wordpress</mark>
-          - <mark>Django</mark>
-          - <mark>Flask</mark>
-          - <mark>Angular X</mark>
-          - <mark>NodeJS</mark>
-          - <mark>JQuery</mark>
-          - <mark>Bootstrap</mark>
-          - <mark>Selenium</mark>
+          - Symfony
+          - Laravel
+          - Phalcon
+          - Codeception
+          - Magento 1.x CE/EE
+          - Wordpress
+          - Django
+          - Flask
+          - Angular X
+          - NodeJS
+          - JQuery
+          - Bootstrap
+          - Selenium
 
       - title: Technologies
         items:
-          - <mark>Websocket</mark>
-          - <mark>AJAX</mark>
-          - <mark>REST</mark>
+          - Websocket
+          - AJAX
+          - REST
 
       - title: Tools
         items:
-          - <mark>PhpStorm</mark>
-          - <mark>PyCharm</mark>
-          - <mark>NetBeans</mark>
-          - <mark>VSCode</mark>
-          - <mark>Atom</mark>
-          - <mark>Sublime Text</mark>
-          - <mark>Git</mark>
-          - <mark>Docker</mark>
-          - <mark>Vagrant</mark>
-          - <mark>Ansible</mark>
-          - <mark>Terraform</mark>
-          - <mark>Bash</mark>
-          - <mark>SSH</mark>
+          - PhpStorm
+          - PyCharm
+          - NetBeans
+          - VSCode
+          - Atom
+          - Sublime Text
+          - Git
+          - Docker
+          - Vagrant
+          - Ansible
+          - Terraform
+          - Bash
+          - SSH
 
       - title: Support Tools
         items:
-          - <mark>Jira</mark>
-          - <mark>Confluence</mark>
-          - <mark>Pagerduty</mark>
-          - <mark>HP LoadRunner</mark>
+          - Jira
+          - Confluence
+          - Pagerduty
+          - HP LoadRunner
 
       - title: Databases
         items:
-          - <mark>MySQL</mark>
-          - <mark>MongoDB</mark>
-          - <mark>Redis</mark>
-          - <mark>Memcache</mark>
-          - <mark>PostgeSQL</mark>
-          - <mark>BigQuery</mark>
+          - MySQL
+          - MongoDB
+          - Redis
+          - Memcache
+          - PostgeSQL
+          - BigQuery
 
       - title: Operating Systems
         items:
-          - <mark>Ubuntu</mark>
-          - <mark>Debian</mark>
-          - <mark>CentOS</mark>
-          - <mark>Raspbian</mark>
-          - <mark>OS X</mark>
+          - Ubuntu
+          - Debian
+          - CentOS
+          - Raspbian
+          - OS X
 
       - title: Servers
         items:
-          - <mark>Nginx</mark>
-          - <mark>Apache</mark>
-          - <mark>GCP</mark>
-          - <mark>AWS</mark>
+          - Nginx
+          - Apache
+          - GCP
+          - AWS
 
       - title: Foreign languages
         items:
-          - <mark>English(intermediate)</mark>
+          - English(intermediate)
 
   - title: Experience
     layout: list

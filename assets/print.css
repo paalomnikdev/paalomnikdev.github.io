@@ -1,0 +1,29 @@
+@media all {
+    .print-comma {
+        display: none;
+    }
+    .page-break {
+        display: none;
+    }
+    .contact-printable {
+        display: none;
+    }
+}
+
+@media print {
+    .contact-printable {
+        display: block;
+        float: right;
+        list-style-type: none;
+    }
+    mark {
+        padding: 0;
+    }
+    .print-comma {
+        display: inline;
+    }
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}

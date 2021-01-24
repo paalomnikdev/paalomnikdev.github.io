@@ -1,7 +1,8 @@
 <div class="container skills-container">
     {% for section in include.content %}
-    <p>
-        <b>{{ section.title }}:</b>{% for i in section.items %} {{ i }} {% endfor %}
-    </p>
+        <p>
+            <b>{{ section.title }}:</b>
+            {% for i in section.items %}<mark>{{ i }}</mark>{% if forloop.last == false %}<span class="print-comma">, </span> {% endif %}{% endfor %}
+        </p>
     {% endfor %}
 </div>

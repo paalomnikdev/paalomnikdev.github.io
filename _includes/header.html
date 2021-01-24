@@ -121,14 +121,31 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
-      <p>
+      <p class="no-print">
         <a href="javascript:window.print();">
           <i class="fa fa-print" aria-hidden="true" title="Print"></i>
         </a>
-<!--        <a id="print" href="javascript:void(0);">-->
-<!--          <i class="fa fa-download" aria-hidden="true" title="Download"></i>-->
-<!--        </a>-->
+        <a download href="{{ '/assets/Ivan_Chornyi.pdf' | relative_url }}">
+          <i class="fa fa-file-pdf" aria-hidden="true" title="Download"></i>
+        </a>
       </p>
+      <ul class="contact-printable" style="">
+        <li>
+          {%- if site.skype_printable -%}
+            <b>Skype:</b> {{ site.skype_printable }}
+          {%- endif -%}
+        </li>
+        <li>
+          {%- if site.telegram_printable -%}
+            <b>Telegram:</b> {{ site.telegram_printable }}
+          {%- endif -%}
+        </li>
+        <li>
+          {%- if site.linkedin_printable -%}
+            <b>Linkedin:</b> {{ site.linkedin_printable }}
+          {%- endif -%}
+        </li>
+      </ul>
     </div>
   </div>
 </div>
