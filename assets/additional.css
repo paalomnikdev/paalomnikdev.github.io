@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.day-night-checkbox {
+    margin: 50px auto;
+    width: 100px;
+    height: 45px;
+}
+.day-night-checkbox input {
+    display: none;
+}
+.day-night-checkbox label {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    border-radius: 50px;
+    background: #3f51b5;
+    position: relative;
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.3);
+}
+.day-night-checkbox .knob {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: blanchedalmond;
+    position: absolute;
+    transition: all 0.3s ease-in;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 59px;
+    box-shadow: inset 2px -1px 0px 2px rgba(0, 0, 0, 0.05), 0px 0px 10px 0px #ffffff;
+}
+.day-night-checkbox .knob:after, .day-night-checkbox .knob:before {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.3s ease-in;
+}
+.day-night-checkbox .knob:after {
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    top: 13%;
+    left: 134%;
+    transform: rotate(-35deg);
+    box-shadow: -13px 14px 0px 1px white, 18px 20px 0px 1px white, 3px 31px 0px 0px white;
+}
+.day-night-checkbox .knob:before {
+    width: 6px;
+    height: 9px;
+    background-color: rgba(221, 221, 221, 0.17);
+    top: 10%;
+    left: 54%;
+    transform: rotate(-35deg);
+    box-shadow: -10px 8px 0px 4px rgba(221, 221, 221, 0.17);
+}
+.day-night-checkbox input:checked + label {
+    background: #00bcd4;
+}
+.day-night-checkbox input:checked + label .knob {
+    right: 5px;
+    background: ivory;
+    box-shadow: 0 0 20px 2px white;
+}
+.day-night-checkbox input:checked + label .knob:before {
+    width: 12px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    top: 22%;
+    position: absolute;
+    left: -129%;
+    transform: rotate(0);
+    box-shadow: 16px 16px 0px 1px white;
+}
+.day-night-checkbox input:checked + label .knob:after {
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    border-radius: 50%;
+    top: 15%;
+    position: absolute;
+    left: -126%;
+    transform: rotate(0);
+    box-shadow: 3px 0px 0px 2px white, 7px 1px 0px 0px white, 16px 15px 0px 1px white, 21px 16px 0px 3px white, 26px 18px 0px 2px white;
+}
