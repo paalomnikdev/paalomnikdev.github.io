@@ -25,7 +25,7 @@ darkmode: false
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
-instagram_username: i.chorniy
+instagram_username: chornyi_fpv
 linkedin_username: ichornyi
 #xing_username: jekyll
 #pinterest_username: jekyll
@@ -35,6 +35,9 @@ linkedin_username: ichornyi
 
 # Additional icon links
 additional_links:
+  - title: YouTube
+    icon: fab fa-youtube
+    url: https://www.youtube.com/channel/UCG6WAppHhYRy7SMzWK9wftg
   - title: Telegram
     icon: fab fa-telegram
     url: https://t.me/i_chornyi
@@ -256,6 +259,7 @@ content:
 
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
        - 3D printing
+       - FPV Drone racing
        - USA Cars
        - Online shopping
        - World digitizing
