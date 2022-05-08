@@ -38,9 +38,9 @@ additional_links:
   - title: YouTube
     icon: fab fa-youtube
     url: https://www.youtube.com/channel/UCG6WAppHhYRy7SMzWK9wftg
-  - title: Telegram
-    icon: fab fa-telegram
-    url: https://t.me/i_chornyi
+  # - title: Telegram
+  #   icon: fab fa-telegram
+  #   url: https://t.me/i_chornyi
   - title: Skype
     icon: fab fa-skype
     url: https://join.skype.com/invite/aZiw8IXWYI2Z
