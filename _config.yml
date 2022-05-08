@@ -131,6 +131,7 @@ content:
           - Sublime Text
           - Git
           - Docker
+          - Kubernetes
           - Vagrant
           - Ansible
           - Terraform
@@ -175,10 +176,25 @@ content:
   - title: Experience
     layout: list
     content:
+      - layout:
+        title: SoftServe
+        sub_title: DevOps Engineer
+        caption: April 2021 - May 2022
+        link: www.softserveinc.com
+        quote: >
+          SoftServe provides services in the fields of big data, Internet of things, cloud computing, DevOps, e-commerce, computer security, experience design, and health care.[4] With its United States headquarters in Austin, Texas and European headquarters in Lviv, Ukraine, the company employed more than 10,000 people in offices in 2021.
+        description: |
+          As a member of CloudOps team I participated in various number of activities such as: strategic infrastructure/automation development, support of incoming requests from developers, support of Data department.
+          Tech stack:
+          - GCP
+          - Terraform
+          - k8s
+          - CircleCI/Spinnaker
+
       - layout: left
         title: MWDN
-        sub_title: Cloud Engineer
-        caption: August 2020 - Nowadays
+        sub_title: SRE
+        caption: August 2020 - April 2021
         link: mwdn.com
         quote: >
           MWDN is an international development company with headquarters in Israel and development center in Kharkiv, Ukraine. Founded in 2002 by highly skilled project managers, MWDN has developed a significant number of successful projects concerning complex medical systems and cardiac monitoring in the past decade and a half. MWDN is also very proud of cooperation with some of the most successful international startups and a great experience in medical, web and mobile software development.
