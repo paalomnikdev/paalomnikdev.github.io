@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ivan Chornyi
-title: Senior Software Engineer
+title: Senior DevOps/SRE
 #email: brett.h@email.co.uk
 #website: www.github.com/sproogen/resume-theme
 skype_printable: i.chorniy
@@ -58,10 +58,7 @@ google_analytics: "UA-171540375-1"
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Ivan and I'm a Senior Software Engineer. My main passion is software development but this is not my single interest, I also like DevOps related challenges.
-  I love to learn and use new technologies and approaches in practice. Technology-agnostic. I always work for the result. I always think before doing something. Glad to know that my work makes life easier for someone.
-  6+ years development experience. Strong communication skills.
-  [Google Associate Cloud Engineer Certified](https://www.credential.net/2d78e3ea-c984-4360-84c7-eefca15d2f25)
+  I am a Senior DevOps Engineer with huge developer experience in past(~6 years). During my career I worked with various programming languages such as PHP, JS and Python but always had a passion to infrastructure and whole picture understanding how applications should work so I passed [GCP associate certification](https://www.credential.net/2d78e3ea-c984-4360-84c7-eefca15d2f25), mastered k8s and switched to the DevOps position. I believe my experience helps me to better cooperate with developers and create suitable infrastructure and automate routine tasks which will give the best possible result for the project. My interests is cryptocurrencies, self-education and drone racing.
 
 content:
 #  - title: Projects # Title for the section
@@ -178,7 +175,7 @@ content:
     content:
       - layout:
         title: SoftServe
-        sub_title: DevOps Engineer
+        sub_title: Senior DevOps Engineer
         caption: April 2021 - May 2022
         link: www.softserveinc.com
         quote: >
