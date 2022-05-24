@@ -11,7 +11,7 @@ title: Senior DevOps/SRE
 #email: brett.h@email.co.uk
 #website: www.github.com/sproogen/resume-theme
 skype_printable: i.chorniy
-telegram_printable: i_chornyi
+# telegram_printable: i_chornyi
 linkedin_printable: ichornyi
 
 # Dark Mode (true/false/never)
@@ -266,7 +266,6 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Date of birth: 29.09.1989
       - Married
       - Founder of Ukrainian [Nissan Rogue Club](https://nissan-rogue.club/)
 
