@@ -11,7 +11,7 @@ title: Senior DevOps/SRE
 #email: brett.h@email.co.uk
 #website: www.github.com/sproogen/resume-theme
 skype_printable: i.chorniy
-# telegram_printable: i_chornyi
+telegram_printable: i_chornyi
 linkedin_printable: ichornyi
 
 # Dark Mode (true/false/never)
@@ -20,7 +20,7 @@ darkmode: false
 # Social links
 # Social links
 #twitter_username: jekyllrb
-#github_username:  paalomnikdev
+github_username:  paalomnikdev
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -38,9 +38,9 @@ additional_links:
   - title: YouTube
     icon: fab fa-youtube
     url: https://www.youtube.com/channel/UCG6WAppHhYRy7SMzWK9wftg
-  # - title: Telegram
-  #   icon: fab fa-telegram
-  #   url: https://t.me/i_chornyi
+  - title: Telegram
+    icon: fab fa-telegram
+    url: https://t.me/i_chornyi
   - title: Skype
     icon: fab fa-skype
     url: https://join.skype.com/invite/aZiw8IXWYI2Z
@@ -84,16 +84,18 @@ content:
     content:
       - title: Programming languages
         items:
+          - Bash
           - PHP
           - Python
           - Javascript
+          - Typescript
+          - Go
 
       - title: Additional technologies
         items:
           - OOP
           - HTML
           - CSS
-          - Typescript
           - Various API's
 
       - title: Frameworks/CMS
@@ -112,28 +114,14 @@ content:
           - Bootstrap
           - Selenium
 
-      - title: Technologies
-        items:
-          - Websocket
-          - AJAX
-          - REST
-
       - title: Tools
         items:
-          - PhpStorm
-          - PyCharm
-          - NetBeans
-          - VSCode
-          - Atom
-          - Sublime Text
           - Git
           - Docker
           - Kubernetes
           - Vagrant
           - Ansible
           - Terraform
-          - Bash
-          - SSH
 
       - title: Support Tools
         items:
@@ -159,10 +147,8 @@ content:
           - Raspbian
           - OS X
 
-      - title: Servers
+      - title: Clouds
         items:
-          - Nginx
-          - Apache
           - GCP
           - AWS
 
