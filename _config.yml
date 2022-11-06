@@ -150,7 +150,7 @@ content:
           - MongoDB
           - Redis
           - Memcache
-          - PostgeSQL
+          - PostgreSQL
           - BigQuery
 
       - title: Operating Systems
