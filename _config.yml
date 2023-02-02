@@ -96,7 +96,7 @@ content:
           - OOP
           - HTML
           - CSS
-          - Various API's
+          - YAML
 
       - title: Frameworks/CMS
         items:
@@ -119,9 +119,14 @@ content:
           - Git
           - Docker
           - Kubernetes
+          - Helm
           - Vagrant
           - Ansible
           - Terraform
+          - Vault
+          - Spinnaker
+          - CircleCI
+          - Gitlab
 
       - title: Support Tools
         items:
@@ -167,7 +172,7 @@ content:
         quote: >
           SoftServe provides services in the fields of big data, Internet of things, cloud computing, DevOps, e-commerce, computer security, experience design, and health care.[4] With its United States headquarters in Austin, Texas and European headquarters in Lviv, Ukraine, the company employed more than 10,000 people in offices in 2021.
         description: |
-          As a member of CloudOps team I participated in various number of activities such as: strategic infrastructure/automation development, support of incoming requests from developers, support of Data department.
+          As a member of CloudOps team I participated in various number of activities such as: strategic infrastructure/automation development, support of incoming requests from developers, support of Data department, various infrastructure improvements and automation.
           Tech stack:
           - GCP
           - Terraform
