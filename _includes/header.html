@@ -4,7 +4,9 @@
       <a href="{{ site.url }}">
         <h1>{{ site.name | escape }}</h1>
       </a>
-      <h2>{{ site.title | escape }}</h2>
+      {%- if page.layout != "starlink-transfer" -%}
+        <h2>{{ site.title | escape }}</h2>
+      {%- endif -%}
     </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-4">
       <div class="day-night-checkbox no-print">
