@@ -1,7 +1,7 @@
 <div class="container header-contianer">
   <div class="row">
     <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 header-left">
-      <a href="https://ivan.chornyi.rocks/">
+      <a href="{{ site.url }}">
         <h1>{{ site.name | escape }}</h1>
       </a>
       <h2>{{ site.title | escape }}</h2>
@@ -133,9 +133,11 @@
         <a href="javascript:window.print();">
           <i class="fa fa-print fa-2x" aria-hidden="true" title="Print"></i>
         </a>
-        <a download href="{{ '/assets/Ivan_Chornyi.pdf' | relative_url }}">
-          <i class="fa fa-file-pdf fa-2x" aria-hidden="true" title="Download"></i>
-        </a>
+        {%- if page.layout != "starlink-transfer" -%}
+          <a download href="{{ '/assets/Ivan_Chornyi.pdf' | relative_url }}">
+            <i class="fa fa-file-pdf fa-2x" aria-hidden="true" title="Download"></i>
+          </a>
+        {%- endif -%}
       </p>
       <ul class="contact-printable" style="">
         <li>
