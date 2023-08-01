@@ -175,6 +175,7 @@ content:
           As a member of CloudOps team I participated in various number of activities such as: strategic infrastructure/automation development, support of incoming requests from developers, support of Data department, various infrastructure improvements and automation.
           Tech stack:
           - GCP
+          - AWS
           - Terraform
           - k8s
           - CircleCI/Spinnaker
