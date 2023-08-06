@@ -26,4 +26,8 @@
         display: block;
         page-break-before: always;
     }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }

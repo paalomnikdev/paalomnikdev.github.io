@@ -109,3 +109,29 @@ body.dark {
     color: #fff;
 }
 
+.badge:before {
+    content: attr(title);
+    display: block;
+}
+  
+ul.bages {
+    text-align: center;
+    padding: 0;
+}
+  
+li.badge {
+    background-color: transparent;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    width: 13%;
+}
+
+li.badge img {
+    max-width: 100%;
+    height: auto;
+}
+
+.small-text {
+    font-size: xx-small;
+}

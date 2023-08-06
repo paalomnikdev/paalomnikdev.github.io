@@ -18,6 +18,9 @@
 
       {%- if site.version == 2 -%}
         {% for section in site.content %}
+          {% if section.layout == 'education' %}
+            <div class="page-break"></div>
+          {% endif %}
           <div class="container {{ section.layout }}-container">
             <h3>{{ section.title }}</h3>
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}

@@ -1,0 +1,11 @@
+<div class="container certifications">
+    <ul class="bages">
+        {% for badge in include.content %}
+            <li class="badge">
+                <a target="_blank" href="{{ badge.link }}">
+                    <img src="{{ badge.img }}" />
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
