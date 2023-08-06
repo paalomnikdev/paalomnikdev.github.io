@@ -3,7 +3,7 @@
         {% for badge in include.content %}
             <li class="badge">
                 <a target="_blank" href="{{ badge.link }}">
-                    <img src="{{ badge.img }}" />
+                    <img src="{{ badge.img }}" title="{{ badge.title }}" alt="{{ badge.title }}" />
                 </a>
             </li>
         {% endfor %}
