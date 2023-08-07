@@ -141,3 +141,9 @@ li.badge img {
         width: 20%;
     }
 }
+
+@media (max-width:767px) {
+    li.badge {
+        width: 20%;
+    }
+}
