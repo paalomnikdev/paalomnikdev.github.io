@@ -144,6 +144,6 @@ li.badge img {
 
 @media (max-width:767px) {
     li.badge {
-        width: 20%;
+        width: 30%;
     }
 }
