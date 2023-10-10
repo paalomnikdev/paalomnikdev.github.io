@@ -36,7 +36,7 @@ linkedin_username: ichornyi
 # Additional icon links
 additional_links:
   - title: Email
-    icon: fab fa-envelope
+    icon: fa fa-envelope
     url: mailto:cv@chornyi.rocks
   # - title: Telegram
   #   icon: fab fa-telegram

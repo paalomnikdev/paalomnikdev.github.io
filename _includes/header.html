@@ -115,12 +115,13 @@
           </li>
         {% endfor %}
       </ul>
-
+      {% comment %}
       {%- if site.email -%}
         <p>
           {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
         </p>
       {%- endif -%}
+      {% endcomment %}
       {%- if site.phone -%}
         <p>
           {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
@@ -148,8 +149,8 @@
           {%- endif -%}
         </li>
         <li>
-          {%- if site.telegram_printable -%}
-            <b>Telegram:</b> {{ site.telegram_printable }}
+          {%- if site.email -%}
+            <b>Email:</b> {{ site.email }}
           {%- endif -%}
         </li>
         <li>
