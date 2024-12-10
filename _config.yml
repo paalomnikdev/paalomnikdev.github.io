@@ -177,13 +177,29 @@ content:
   - title: Experience
     layout: list
     content:
+      - layout: left
+        title: Techstack
+        sub_title: Senior DevOps Engineer
+        caption: April 2024 - Nowadays
+        link: tech-stack.com
+        quote: >
+          Techstack is a dynamic software development company that specializes in creating and enhancing innovative digital products. Founded in 2014, the company has grown into a team of 170+ professionals, collaborating to deliver high-quality software solutions. Techstack is a trusted technology partner for global clients, including Corel Corporation, and excels in combining expertise, cutting-edge technology, and a collaborative culture to drive product success.
+        description: |
+          In the CloudOps team, I worked on diverse automation and infrastructure management tasks, supported sub-departments, and improved existing infrastructure code for better performance and scalability.
+          Tech stack:
+          - GCP
+          - Go
+          - Python
+          - Terraform
+          - GKE(k8s)
+          - CircleCI
       - layout:
         title: SoftServe
         sub_title: Senior DevOps Engineer
-        caption: April 2021 - Nowadays
+        caption: April 2021 - April 2024
         link: www.softserveinc.com
         quote: >
-          SoftServe provides services in the fields of big data, Internet of things, cloud computing, DevOps, e-commerce, computer security, experience design, and health care.[4] With its United States headquarters in Austin, Texas and European headquarters in Lviv, Ukraine, the company employed more than 10,000 people in offices in 2021.
+          SoftServe provides services in the fields of big data, Internet of things, cloud computing, DevOps, e-commerce, computer security, experience design, and health care. With its United States headquarters in Austin, Texas and European headquarters in Lviv, Ukraine, the company employed more than 10,000 people in offices in 2021.
         description: |
           As a member of CloudOps team I participated in various number of activities such as: strategic infrastructure/automation development, support of incoming requests from developers, support of Data department, various infrastructure improvements and automation.
           Tech stack:
@@ -192,7 +208,6 @@ content:
           - Terraform
           - k8s
           - CircleCI/Spinnaker
-
       - layout: left
         title: MWDN
         sub_title: SRE
