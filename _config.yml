@@ -100,9 +100,7 @@ content:
 
       - title: Frameworks/CMS
         items:
-          - Symfony
-          - Laravel
-          - Phalcon
+          - Symfony/Laravel/Phalcon
           - Codeception
           - Magento 1.x CE/EE
           - Wordpress
@@ -110,7 +108,7 @@ content:
           - Flask
           - Angular X
           - NodeJS
-          - JQuery
+          - Gin
           - Bootstrap
           - Selenium
 
